@@ -16,6 +16,12 @@ export default {
 	html,body,#app {
 		height: 100%;
 	}
+	#app {
+		padding-top:2rem;
+	}
+	.rounded-border {
+		border-radius: 10rem;
+	}
 	select.is-success {
 	    border-color: #23d160;
 	}

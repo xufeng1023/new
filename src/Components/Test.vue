@@ -1,18 +1,34 @@
 <template>
 	<div class="container">
-		<div class="columns">
-	  		<div class="column is-half is-offset-one-quarter">
-				<p class="control">
-				  <input class="input is-success" type="text" placeholder="Nickname222">
-				</p>
-	  		</div>
+		<p class="control">
+	  		<input class="input is-success rounded-border" type="text" placeholder="search subjects">
+		</p>
+		<div id="content">
+			<Box></Box>
+			<Box></Box>
+			<Box></Box>
+			<Box></Box>
+			<Box></Box>
+			<Box></Box>
+		</div>
+		<div id="menu" class="tabs is-centered">
+		  		<ul>
+			    	<li class="is-active"><a>Pictures</a></li>
+			    	<li><a>Music</a></li>
+			    	<li><a>Videos</a></li>
+			    	<li><a>Documents</a></li>
+			  	</ul>
 		</div>
 	</div>
 </template>
 
 <script>
-	export default {
+	import Article from './Article.vue'
 
+	export default {
+		components: {
+			Box: Article
+		}
 	}
 </script>
 
@@ -20,10 +36,21 @@
 	.container {
 		height: 100%;
 		display: flex;
-		align-items: center;
-		justify-content: center;
+    	justify-content: space-between;
+    	height: 100%;
+    	flex-direction: column;
 	}
-	.select, .select>select {
-		width: 100%;
+	#content {
+		max-height: 87%;
+		overflow-y: scroll; 
+	}
+	article {
+		margin-bottom: 0 !important;
+	}
+	.message-body {
+		border-radius: 0 !important;
+	}
+	#menu {
+		z-index: 999;
 	}
 </style>

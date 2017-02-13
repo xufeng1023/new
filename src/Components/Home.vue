@@ -1,12 +1,12 @@
 <template>
-	<div class="container">
+	<div id="home" class="container">
 		<div class="columns">
 	  		<div class="column is-half is-offset-one-quarter">
 				<p class="control">
-				  <input class="input is-success is-medium" type="text" placeholder="Nickname">
+				  <input class="input is-success" type="text" placeholder="Nickname">
 				</p>
 				<p class="control">
-				  <span class="select is-fullwidth is-medium">
+				  <span class="select is-fullwidth">
 				    <select class="is-success is-fullwidth">
 				      <option>Select dropdown</option>
 				      <option>With options</option>
@@ -28,7 +28,7 @@
 </script>
 
 <style>
-	.container {
+	#home {
 		height: 100%;
 		display: flex;
 		align-items: center;
