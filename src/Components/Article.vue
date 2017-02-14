@@ -1,9 +1,9 @@
 <template>
-	<article class="message" @click="isWarning=true" :class="{'is-warning':isWarning}">
+	<router-link tag="article" to="/chat" class="message" @click="onFeedClick" :class="{'is-warning':isWarning}">
 	  	<div class="message-body">
 	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. tempus quis placerat ut, porta nec nulla. 
 	  	</div>
-	</article>
+	</router-link>
 </template>
 
 <script>
@@ -11,6 +11,11 @@
 		data() {
 			return {
 				isWarning: false
+			}
+		},
+		methods: {
+			onFeedClick() {
+				this.isWarning = true
 			}
 		}
 	}

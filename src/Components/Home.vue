@@ -14,7 +14,7 @@
 				  </span>
 				</p>
 				<p class="control">
-					<router-link to="/tt" tag="button" class="button is-primary is-fullwidth">Start</router-link>
+					<router-link to="/feeds" tag="button" class="button is-primary is-fullwidth">Start</router-link>
 				</p>
 	  		</div>
 		</div>
@@ -23,7 +23,7 @@
 
 <script>
 	export default {
-
+		
 	}
 </script>
 

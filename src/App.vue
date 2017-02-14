@@ -5,19 +5,28 @@
 </template>
 
 <script>
-export default {
-  name: 'app',
-}
+	export default {
+
+	}
 </script>
 
 <style>
 	@import "../node_modules/bulma/css/bulma.css";
 
-	html,body,#app {
+	html {
 		height: 100%;
+		background: yellow;
+	}
+	body {
+		height: 95vh;
+		margin-top: 5vh;
+		background: red;
 	}
 	#app {
-		padding-top:2rem;
+		height: 100%;
+	}
+	.hero.is-fullheight {
+		min-height: 100%;
 	}
 	.rounded-border {
 		border-radius: 10rem;

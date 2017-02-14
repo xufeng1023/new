@@ -12,12 +12,12 @@
 			<Box></Box>
 		</div>
 		<div id="menu" class="tabs is-centered">
-		  		<ul>
-			    	<li class="is-active"><a>Pictures</a></li>
-			    	<li><a>Music</a></li>
-			    	<li><a>Videos</a></li>
-			    	<li><a>Documents</a></li>
-			  	</ul>
+	  		<ul>
+		    	<li class="is-active"><a>Pictures</a></li>
+		    	<li><a>Music</a></li>
+		    	<li><a>Videos</a></li>
+		    	<router-link to="/" tag="li"><a>Logout</a></router-link>
+		  	</ul>
 		</div>
 	</div>
 </template>
