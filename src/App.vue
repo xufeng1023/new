@@ -11,22 +11,25 @@
 </script>
 
 <style>
-	@import "../node_modules/bulma/css/bulma.css";
-
 	html {
 		height: 100%;
-		background: yellow;
+		overflow: auto;
 	}
 	body {
-		height: 95vh;
-		margin-top: 5vh;
-		background: red;
+		height: 97vh;
+		margin-top: 3vh;
 	}
 	#app {
 		height: 100%;
 	}
 	.hero.is-fullheight {
 		min-height: 100%;
+	}
+	.hero-head,.hero-foot {
+		padding: 0 1.5rem;
+	}
+	.hero-foot {
+		padding: 0.5rem 1.5rem;
 	}
 	.rounded-border {
 		border-radius: 10rem;

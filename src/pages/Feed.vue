@@ -23,7 +23,7 @@
 </template>
 
 <script>
-	import Article from './Article.vue'
+	import Article from '../components/Article.vue'
 
 	export default {
 		components: {
@@ -44,11 +44,8 @@
 		max-height: 87%;
 		overflow-y: scroll; 
 	}
-	article {
-		margin-bottom: 0 !important;
-	}
 	.message-body {
-		border-radius: 0 !important;
+		border-radius: 0;
 	}
 	#menu {
 		z-index: 999;

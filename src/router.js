@@ -1,7 +1,7 @@
 import VueRouter from 'vue-router'
-import Home from './Components/Home.vue'
-import Feed from './Components/Feed.vue'
-import Chat from './Components/Chat.vue'
+import Home from './pages/Home.vue'
+import Feed from './pages/Feed.vue'
+import Chat from './pages/Chat.vue'
 
 const rootPath = window.location.pathname
 

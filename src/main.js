@@ -15,4 +15,5 @@ function onDeviceReady() {
       router,
       render: h => h(App)
     })
+    StatusBar.styleLightContent(true);
 }

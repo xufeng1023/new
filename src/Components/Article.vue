@@ -20,3 +20,9 @@
 		}
 	}
 </script>
+
+<style>
+	article {
+		margin-bottom: 0;
+	}
+</style>
